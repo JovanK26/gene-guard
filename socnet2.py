@@ -5,8 +5,6 @@ from typing import List
 num_strings = 500
 string_length = 1000
 common_patterns = ["ATCG", "AGCT", "TCGA", "GATC",'CGC', "ATA", "GCG", "AGA", "TGT", "CGA", "ATC", "GCG", "ACG", "GTG", "TAT", "AAT", "GAG", "AAA", "CGC"]
-#common_patterns = ["A","C","G","T"]
-#mutations = ["ATCGCTGATAGCTGATCG","GCTAGTACGACGCTCGA","ATCGGCTAGCTCGAT","AGCTGATCGATCGATCG","ATAGCTGA"]
 mutations = ["TAGCTGATCG","ACGACGCTC","ACGTCGATGT","AGCTGATCGATCGATCG"]
 mutation_names=["Cystic Fibrosis","Hemophilia A","Hemophilia B","Spina Bifida"]
 mutation_type=[1,0,0,0]
